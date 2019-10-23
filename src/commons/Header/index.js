@@ -28,7 +28,9 @@ export default class Header extends Component {
           <NavItem>
             <SearchWrapper action="/search">
               <SearchInput placeholder="搜索" />
-              <SearchIcon>0</SearchIcon>
+              <SearchIcon>
+                <i className="iconfont">&#xe61d;</i>
+              </SearchIcon>
             </SearchWrapper>
           </NavItem>
         </Nav>

@@ -54,7 +54,7 @@ export const SearchInput = styled.input`
   background: #eee;
   font-size: 14px;
 `;
-export const SearchIcon = styled.i`
+export const SearchIcon = styled.div`
   position: absolute;
   top: 4px;
   right: 5px;
